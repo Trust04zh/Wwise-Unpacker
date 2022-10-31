@@ -1,4 +1,7 @@
+add  `Unpack to WAV.bat` (using `vgmstream`)
+
 # Wwise-Unpacker
+
 Unpack game audio Wwise files (pck, bnk)
 
 **This guide is for Windows-64bit only!** I'll be using the game Life is Strange **as an example**.
@@ -13,6 +16,7 @@ Here's the archive structure:
   * Unpack to MP3.bat
   * Unpack to OGG.bat
   
+
 Now we have to find the audio files to unpack. Life is Strange uses Wwise audio so files are packaged in either .PCK or .BNK containers. 
 You can just search for *.PCK or *.BNK but I prefer the following method: go to the game folder (C:/Program Files (x86)/Steam/steamapps/common/Life Is Strange) and search for "WwiseAudio" which will show you the audio folder for each chapter.
 
